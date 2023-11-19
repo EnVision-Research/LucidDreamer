@@ -1,14 +1,16 @@
-# LucidDreamer: Towards High-Fidelity Text-to-3D Generation via Interval Score Matching"
+# LucidDreamer: Towards High-Fidelity Text-to-3D Generation via Interval Score Matching
 
-[Yixun Liang]()$^\*$ [Xin Yang](https://abnervictor.github.io/2023/06/12/Academic-Self-Intro.html)$^\*$, Jiantao Lin, Haodong Li, [Xiaogang Xu](https://xiaogang00.github.io), [Yingcong Chen](https://www.yingcong.me)$^{\**}$
+[Yixun Liang]()$^{\color{red}{\*}}$ [Xin Yang](https://abnervictor.github.io/2023/06/12/Academic-Self-Intro.html)$^{\color{red}{\*}}$, Jiantao Lin, Haodong Li, [Xiaogang Xu](https://xiaogang00.github.io), [Yingcong Chen](https://www.yingcong.me)$^{\**}$
 
-\*: Equal contribution.
+
+$\color{red}{\*}$: Equal contribution.
 \**: Corresponding author.
 
 ---
 
 <div align=center>
-<img src="resources/teaser.jpg" width="70%"/>  
+<img src="resources/teaser.jpg" width="95%"/>  
+  
 Examples of text-to-3D content creations with our framework.
 </div>
 
