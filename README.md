@@ -2,10 +2,10 @@
 
 [Yixun Liang]()$^{\color{red}{\*}}$ [Xin Yang](https://abnervictor.github.io/2023/06/12/Academic-Self-Intro.html)$^{\color{red}{\*}}$, Jiantao Lin, Haodong Li, [Xiaogang Xu](https://xiaogang00.github.io), [Yingcong Chen](https://www.yingcong.me)$^{\**}$
 
-[Project Page (Coming Soon)]() | [Paper PDF](resources/LucidDream.pdf)
-
 $\color{red}{\*}$: Equal contribution.
 \**: Corresponding author.
+
+[Project Page (Coming Soon)]() | [Paper PDF](resources/LucidDream.pdf)
 
 ---
 
