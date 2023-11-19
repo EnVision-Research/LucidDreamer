@@ -5,7 +5,7 @@
 $\color{red}{\*}$: Equal contribution.
 \**: Corresponding author.
 
-[Project Page (Coming Soon)]() | [Paper PDF](/supplementFiles/LucidDreamer.pdf)
+[Project Page (Coming Soon)]() | [Paper PDF](https://github.com/EnVision-Research/LucidDreamer/blob/main/resources/supplementFiles/LucidDreamer.pdf)
 
 ---
 
