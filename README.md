@@ -12,7 +12,7 @@ $\color{red}{\*}$: Equal contribution.
 <div align=center>
 <img src="resources/teaser.jpg" width="95%"/>  
   
-Examples of text-to-3D content creations with our framewor, the *LucidDreamer*, within **~35mins**.
+Examples of text-to-3D content creations with our framewor, the *LucidDreamer*, within **~35mins in A100**.
 </div>
 
 ## 🎏 Abstract
