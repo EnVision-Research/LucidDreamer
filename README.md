@@ -5,7 +5,9 @@
 $\color{red}{\*}$: Equal contribution.
 \**: Corresponding author.
 
-[Project Page (Coming Soon)]() | [Paper PDF](https://github.com/EnVision-Research/LucidDreamer/blob/main/resources/supplementFiles/LucidDreamer.pdf)
+<a href='https://arxiv.org/abs/2311.11284'><img src='https://img.shields.io/badge/ArXiv-2311.11284-red'></a> 
+
+[Project Page (Coming Soon)]()
 
 ---
 
@@ -33,3 +35,13 @@ We present a text-to-3D generation framework, named the *LucidDreamer*, to disti
 Coming soon!
 
 ## 📍 Citation 
+```
+@misc{liang2023luciddreamer,
+      title={LucidDreamer: Towards High-Fidelity Text-to-3D Generation via Interval Score Matching}, 
+      author={Yixun Liang and Xin Yang and Jiantao Lin and Haodong Li and Xiaogang Xu and Yingcong Chen},
+      year={2023},
+      eprint={2311.11284},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
