@@ -10,14 +10,9 @@ $\color{red}{\*}$: Equal contribution.
 ---
 
 <div align=center>
-<img src="resources/gif/demo-1.gif" width="95%"/>  
-  
-</div>
+<img src="resources/gif/demo-1.gif" width="47.5%"/><img src="resources/gif/demo-2.gif" width="47.5%"/>  
 
-<div align=center>
-<img src="resources/gif/demo-2.gif" width="95%"/>  
-
-Note: the motion pictures are compressed for fast previewing
+  Note: these motion pictures are compressed for fast previewing
 </div>
 
 <div align=center>
