@@ -15,6 +15,17 @@ $\color{red}{\*}$: Equal contribution.
 Examples of text-to-3D content creations with our framework, the *LucidDreamer*, within **~35mins** on A100.
 </div>
 
+<div align=center>
+<img src="resources/gif/demo-1.gif" width="95%"/>  
+  
+</div>
+
+<div align=center>
+<img src="resources/gif/demo-2.gif" width="95%"/>  
+  
+</div>
+
+
 ## 🎏 Abstract
 
 We present a text-to-3D generation framework, named the *LucidDreamer*, to distill high-fidelity textures and shapes from pretrained 2D diffusion models.
