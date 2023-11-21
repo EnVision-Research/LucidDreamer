@@ -10,12 +10,6 @@ $\color{red}{\*}$: Equal contribution.
 ---
 
 <div align=center>
-<img src="resources/teaser.jpg" width="95%"/>  
-  
-Examples of text-to-3D content creations with our framework, the *LucidDreamer*, within **~35mins** on A100.
-</div>
-
-<div align=center>
 <img src="resources/gif/demo-1.gif" width="95%"/>  
   
 </div>
@@ -24,6 +18,12 @@ Examples of text-to-3D content creations with our framework, the *LucidDreamer*,
 <img src="resources/gif/demo-2.gif" width="95%"/>  
 
 Note: the motion pictures are compressed for fast previewing
+</div>
+
+<div align=center>
+<img src="resources/teaser.jpg" width="95%"/>  
+  
+Examples of text-to-3D content creations with our framework, the *LucidDreamer*, within **~35mins** on A100.
 </div>
 
 
