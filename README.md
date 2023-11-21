@@ -12,7 +12,7 @@ $\color{red}{\*}$: Equal contribution.
 <div align=center>
 <img src="resources/gif/demo-1.gif" width="47.5%"/><img src="resources/gif/demo-2.gif" width="47.5%"/>  
 
-  Note: these motion pictures are compressed for fast previewing
+Note: We compress these motion pictures for faster previewing.
 </div>
 
 <div align=center>
