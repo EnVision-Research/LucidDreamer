@@ -5,9 +5,7 @@
 $\color{red}{\*}$: Equal contribution.
 \**: Corresponding author.
 
-<a href='https://arxiv.org/abs/2311.11284'><img src='https://img.shields.io/badge/ArXiv-2311.11284-red'></a> 
-
-[Project Page (Coming Soon)]()
+[Paper PDF (Arxiv)](https://arxiv.org/abs/2311.11284) | [Project Page (Coming Soon)]()
 
 ---
 
