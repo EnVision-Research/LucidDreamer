@@ -34,7 +34,7 @@ Coming soon!
 
 ## 📍 Citation 
 ```
-@misc{liang2023luciddreamer,
+@misc{envision2023luciddreamer,
       title={LucidDreamer: Towards High-Fidelity Text-to-3D Generation via Interval Score Matching}, 
       author={Yixun Liang and Xin Yang and Jiantao Lin and Haodong Li and Xiaogang Xu and Yingcong Chen},
       year={2023},
