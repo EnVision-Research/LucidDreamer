@@ -22,7 +22,8 @@ Examples of text-to-3D content creations with our framework, the *LucidDreamer*,
 
 <div align=center>
 <img src="resources/gif/demo-2.gif" width="95%"/>  
-  
+
+Note: the motion pictures are compressed for fast previewing
 </div>
 
 
