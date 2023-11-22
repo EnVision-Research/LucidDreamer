@@ -1,0 +1,29 @@
+name: LucidDreamer
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - cudatoolkit=11.6
+  - plyfile=0.8.1
+  - python=3.9
+  - pip=22.3.1
+  - pytorch=1.12.1
+  - torchaudio=0.12.1
+  - torchvision=0.15.2
+  - tqdm
+  - pip:
+    - mediapipe
+    - Pillow
+    - diffusers==0.18.2
+    - xformers==0.0.20
+    - transformers==4.30.2
+    - fire==0.5.0
+    - huggingface_hub==0.16.4
+    - imageio==2.31.1
+    - imageio-ffmpeg
+    - PyYAML
+    - safetensors
+    - wandb
+    - accelerate
+    - triton

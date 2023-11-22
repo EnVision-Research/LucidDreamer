@@ -1,0 +1,75 @@
+port: 2355
+save_video: true
+seed: 0
+
+PipelineParams:
+  convert_SHs_python: False #true = using direct rgb
+ModelParams:
+  workspace: football_helmet
+  sh_degree: 0
+  bg_aug_ratio: 0.66
+
+GuidanceParams:
+  model_key: 'stabilityai/stable-diffusion-2-1-base'
+  text: 'a DSLR photo of a football helmet.'
+  negative: 'unrealistic, blurry, low quality, out of focus, ugly, low contrast, dull, low-resolution, oversaturation.'
+  inverse_text: ''
+  perpneg: false
+  C_batch_size: 4
+  t_range: [0.02, 0.5]
+  max_t_range: 0.98
+  lambda_guidance: 0.1
+  guidance_scale: 7.5
+  denoise_guidance_scale: 1.0
+
+  noise_seed: 0
+
+  ddim_inv: true
+  accum: false
+  annealing_intervals: true
+
+  xs_delta_t: 200
+  xs_inv_steps: 5
+  xs_eta: 0.0
+  
+  delta_t: 50
+  delta_t_start: 100
+
+GenerateCamParams:
+  init_shape: 'pointe'
+  init_prompt: 'a football helmet.'  
+  use_pointe_rgb: false
+  init_num_pts: 100_000
+  phi_range: [-180, 180]
+  max_phi_range: [-180, 180]
+
+  theta_range: [45, 90]
+  max_theta_range: [45, 90]
+
+  radius_range: [5.2, 5.5] #[3.8, 4.5] #[3.0, 3.5]
+  max_radius_range: [3.5, 5.0] #[3.8, 4.5] #[3.0, 3.5]
+  default_radius: 3.5
+ 
+  default_fovy: 0.55
+  fovy_range: [0.32, 0.60]
+  max_fovy_range: [0.16, 0.60]
+
+OptimizationParams:
+  iterations: 5000
+  save_process: True
+  pro_frames_num: 600
+  pro_render_45: False
+  warmup_iter: 1500 # 2500
+
+  as_latent_ratio : 0.2
+  geo_iter : 0
+  densify_from_iter: 100
+  densify_until_iter: 3000
+  percent_dense: 0.003
+  densify_grad_threshold: 0.00075
+  progressive_view_iter: 500 #1500
+  opacity_reset_interval: 300 #500
+
+  scale_up_cameras_iter: 500
+  fovy_scale_up_factor: [0.75, 1.1]
+  phi_scale_up_factor: 1.5

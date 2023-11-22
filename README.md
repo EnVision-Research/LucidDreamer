@@ -10,6 +10,12 @@ $\color{red}{\*}$: Equal contribution.
 ---
 
 <div align=center>
+<img src="resources/gif/demo-1.gif" width="47.5%"/><img src="resources/gif/demo-2.gif" width="47.5%"/>  
+
+Note: we compress these motion pictures for faster previewing.
+</div>
+
+<div align=center>
 <img src="resources/teaser.jpg" width="95%"/>  
   
 Examples of text-to-3D content creations with our framework, the *LucidDreamer*, within **~35mins** on A100.
@@ -26,12 +32,16 @@ We present a text-to-3D generation framework, named the *LucidDreamer*, to disti
 
 </details>
 
+## 🔧 Training Instructions
+
+Our code is now released! Please refer to this [**link**](resources/Training_Instructions.md) for detailed training instructions.
+
 ## 🚧 Todo
 
-- [ ] Release the training codes
-- [ ] Release the guidance documents
+- [x] Release the basic training codes
+- [x] Release the guidance documents
+- [ ] Release the training codes for more applications
 
-Coming soon!
 
 ## 📍 Citation 
 ```
@@ -44,3 +54,11 @@ Coming soon!
       primaryClass={cs.CV}
 }
 ```
+
+## Acknowledgement
+This work is built on many amazing research works and open-source projects:
+- [gaussian-splatting](https://github.com/graphdeco-inria/gaussian-splatting) and [diff-gaussian-rasterization](https://github.com/graphdeco-inria/diff-gaussian-rasterization)
+- [Stable-Dreamfusion](https://github.com/ashawkey/stable-dreamfusion)
+- [Point-E](https://github.com/openai/point-e)
+
+Thanks for their excellent work and great contribution to 3D generation area.
