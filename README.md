@@ -36,6 +36,10 @@ We present a text-to-3D generation framework, named the *LucidDreamer*, to disti
 
 Our code is now released! Please refer to this [**link**](resources/Training_Instructions.md) for detailed training instructions.
 
+## 🤗 Gradio Demo
+
+We are currently building an online demo of LucidDreamer with Gradio, you can check it out by clicking this [link](https://huggingface.co/spaces/haodongli/LucidDreamer). It is still under development, and the service might not be available from time to time. 
+
 ## 🚧 Todo
 
 - [x] Release the basic training codes
