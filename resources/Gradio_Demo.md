@@ -7,7 +7,6 @@
 ## Cloning the HuggingFace Repository
 
 ```shell
-git lfs install
 git clone https://huggingface.co/spaces/haodongli/LucidDreamer.git
 cd LucidDreamer
 ```
