@@ -7,7 +7,8 @@
 ## Cloning the :hugs: Repository
 
 ```shell
-git clone https://huggingface.co/spaces/haodongli/LucidDreamer.git
+git lfs install
+git clone https://huggingface.co/spaces/haodongli/LucidDreamer
 cd LucidDreamer
 ```
 
