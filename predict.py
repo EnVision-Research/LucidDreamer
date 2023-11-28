@@ -37,7 +37,7 @@ class Predictor(BasePredictor):
         iterations: int = Input(
             description="Number of iterations",
             default=2000,
-            ge=1000,
+            ge=100,
             le=10000,
         ),
         cfg: float = Input(
