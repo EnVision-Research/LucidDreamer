@@ -1,8 +1,8 @@
 # Gradio Demo
 
 - For online demo, please click [**here**](https://huggingface.co/spaces/haodongli/LucidDreamer).
-- However, it is highly advisable to run the demo locally, as the live demo may take a considerable amount of time :smile:
-- Below is a straightforward guide for building the Gradio demo locally.
+- However, it is highly advisable to run the demo locally, as the live demo may take a considerable amount of time.
+- Below is a straightforward guide for building the Gradio demo locally :smile:
 
 ## Cloning the HuggingFace Repository
 
