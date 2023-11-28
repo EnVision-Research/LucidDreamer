@@ -4,7 +4,7 @@
 - However, it is highly advisable to run the demo locally, as the live demo may take a considerable amount of time.
 - Below is a straightforward guide for building the Gradio demo locally :smile:
 
-## Cloning the HuggingFace Repository
+## Cloning the :hugs: Repository
 
 ```shell
 git clone https://huggingface.co/spaces/haodongli/LucidDreamer.git
