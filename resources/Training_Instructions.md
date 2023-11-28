@@ -15,16 +15,12 @@ git clone https://github.com/EnVision-Research/LucidDreamer.git --recursive
 Our default, provided install method is based on Conda package.
 Firstly, you need to create an virtual environment and install the submodoules we provide. (slightly difference from original [3DGS](https://github.com/graphdeco-inria/gaussian-splatting))
 ```shell
-conda env create --file environment.yml
+conda create -n LucidDreamer python=3.9.16 cudatoolkit=11.8
 conda activate LucidDreamer
+pip install -r requirements.txt
 pip install submodules/diff-gaussian-rasterization/
 pip install submodules/simple-knn/
 ```
-Then, you need to install [Point-E](https://github.com/openai/point-e) follow the instruction under this repo:
-```shell
-https://github.com/openai/point-e
-```
-
 # Running
 We will provide a detailed guideline of our implementation about the description of each hyperparameter and how to tune them later. Now, we release 9 config files for you to evaluate the effectiveness of our framework (all configs can be trained in a single RTX3090).
 

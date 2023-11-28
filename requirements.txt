@@ -1,0 +1,21 @@
+pip==23.3.1
+torch==2.0.1 --index-url https://download.pytorch.org/whl/cu118
+torchvision==0.15.2 --index-url https://download.pytorch.org/whl/cu118
+tqdm
+mediapipe
+Pillow
+diffusers==0.18.2
+transformers==4.30.2
+fire==0.5.0
+huggingface_hub==0.16.4
+imageio==2.31.1
+imageio-ffmpeg
+PyYAML
+safetensors
+wandb
+accelerate
+triton
+gradio
+plyfile==0.8.1
+xformers==0.0.20
+git+https://github.com/openai/point-e.git
