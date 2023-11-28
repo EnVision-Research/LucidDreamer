@@ -14,10 +14,12 @@ cd LucidDreamer
 ## Setup
 
 ```shell
-conda create -n LD_Demo python=3.9.16 cudatoolkit=11.8
+conda create -n LD_Demo python=3.9.16 cudatoolkit=11.8 -y
 conda activate LD_Demo
 pip install -r pre-requirements.txt
 pip install -r requirements.txt
+pip install git+https://github.com/YixunLiang/simple-knn.git
+pip install git+https://github.com/YixunLiang/diff-gaussian-rasterization.git
 ```
 
 ## Running
