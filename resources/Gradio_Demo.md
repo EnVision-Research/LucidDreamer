@@ -14,6 +14,8 @@ cd LucidDreamer
 
 ## Setup
 
+- Please **skip** this step if you have already built conda env. `LucidDreamer` following [this guide](Training_Instructions.md).
+
 ```shell
 conda create -n LD_Demo python=3.9.16 cudatoolkit=11.8 -y
 conda activate LD_Demo
