@@ -29,5 +29,5 @@ pip install git+https://github.com/YixunLiang/diff-gaussian-rasterization.git
 
 ```shell
 LD_CUDA=0 # select a graphic card
-python gradio_demo.py --cuda $LD_CUDA
+python app.py --cuda $LD_CUDA
 ```
