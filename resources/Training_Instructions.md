@@ -24,7 +24,7 @@ pip install submodules/simple-knn/
 # Running
 We will provide a detailed guideline of our implementation about the description of each hyperparameter and how to tune them later. Now, we release 9 config files for you to evaluate the effectiveness of our framework (all configs can be trained in a single RTX3090).
 
-The config file will download the pre-trained model automatically. You can also change ```model_key:``` in the ```configs\<config_file>.yaml``` to link the local Pretrained Diffusion Models ( [Stable Diffusion 2.1-base](https://huggingface.co/stabilityai/stable-diffusion-2-1-base/tree/main) in default)
+The pre-trained model will be downloaded automatically. You can also change ```model_key:``` in the ```configs\<config_file>.yaml``` to link the local Pretrained Diffusion Models ( [Stable Diffusion 2.1-base](https://huggingface.co/stabilityai/stable-diffusion-2-1-base/tree/main) in default)
 
 
 Then, you can use:
