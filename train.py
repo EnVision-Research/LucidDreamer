@@ -35,7 +35,6 @@ try:
 except ImportError:
     TENSORBOARD_FOUND = False
 
-sys.path.append('/root/yangxin/codebase/3D_Playground/GSDF')
 
 
 def adjust_text_embeddings(embeddings, azimuth, guidance_opt):
