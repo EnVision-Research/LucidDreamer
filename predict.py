@@ -10,11 +10,14 @@ import os
 
 try:
     from train import *
-except:
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "./submodules/diff-gaussian-rasterization"])
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "./submodules/simple-knn/"])
+except ImportError:
+    # install the submodules if they are not installed yet
+    subprocess.run(["pip", "install", "./submodules/diff-gaussian-rasterization"], check=True)
+    subprocess.run(["pip", "install", "./submodules/simple-knn/"], check=True)
     from train import *
 
+os.environ['HUGGINGFACE_HUB_CACHE'] = "models/"
+os.environ['HF_HUB_OFFLINE'] = 'false'
 
 class Predictor(BasePredictor):
     def setup(self) -> None:
@@ -81,6 +84,9 @@ class Predictor(BasePredictor):
         with open(config_path, 'w') as yml:
             yaml.safe_dump(config, yml, default_flow_style=False)
 
-        subprocess.check_call([sys.executable, train_path, "--opt", config_path])
+        try:
+            subprocess.check_call([sys.executable, train_path, "--opt", config_path])
+        except Exception as e:
+            print(str(e))
         return [Path(output_video_path), Path(output_proc_path)]
 

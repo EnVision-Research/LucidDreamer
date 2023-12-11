@@ -21,3 +21,6 @@ __pycache__
 
 # Exclude outputs if any
 /outputs
+
+# model cache
+/point_e_model_cache
