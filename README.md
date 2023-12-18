@@ -19,6 +19,14 @@ Note: we compress these motion pictures for faster previewing.
 <img src="resources/teaser.jpg" width="95%"/>  
   
 Examples of text-to-3D content creations with our framework, the *LucidDreamer*, within **~35mins** on A100.
+
+</div>
+<div align=center>
+
+[![LucidDreamer: Towards High-Fidelity Text-to-3D Generation via Interval Score Matching](https://res.cloudinary.com/marcomontalbano/image/upload/v1702878374/video_to_markdown/images/youtube--zToxGi_hNWs-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=zToxGi_hNWs "LucidDreamer: Towards High-Fidelity Text-to-3D Generation via Interval Score Matching")
+
+Please click to watch the 3-minute video introduction of our project.
+
 </div>
 
 
