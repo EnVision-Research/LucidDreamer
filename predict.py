@@ -23,6 +23,16 @@ class Predictor(BasePredictor):
     def setup(self) -> None:
         """Load the model into memory to make running multiple predictions efficient"""
 
+        ckpt_url = "https://weights.replicate.delivery/default/luciddreamer/stable-diffusion-2-1-base.tar"
+
+        if not os.path.exists("/src/models/"):
+            print("Downloading checkpoint")
+            try:
+                output = subprocess.check_output(["pget", "-x", ckpt_url, "/src/tmp"])
+                os.rename("/src/tmp/", "/src/modles/")
+            except subprocess.CalledProcessError as e:
+                raise e
+
     def predict(
         self,
         prompt: str = Input(

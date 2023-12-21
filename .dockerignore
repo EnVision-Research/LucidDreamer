@@ -20,7 +20,8 @@ __pycache__
 *.egg-info/
 
 # Exclude outputs if any
-/outputs
+/output
 
 # model cache
 /point_e_model_cache
+/models/

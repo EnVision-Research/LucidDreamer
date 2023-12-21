@@ -30,3 +30,5 @@ build:
     - "xformers==0.0.20"
 
 predict: "predict.py:Predictor"
+
+image: r8.im/jd7h/luciddreamer
