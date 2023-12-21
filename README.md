@@ -5,7 +5,7 @@
 $\color{red}{\*}$: Equal contribution.
 \**: Corresponding author.
 
-[Paper PDF (Arxiv)](https://arxiv.org/abs/2311.11284) | [Project Page (Coming Soon)]() | [Gradio Demo](resources/Gradio_Demo.md) | [Replicate Demo](https://replicate.com/jd7h/luciddreamer)
+[Paper PDF (Arxiv)](https://arxiv.org/abs/2311.11284) | [Project Page (Coming Soon)]() | [Gradio Demo](resources/Gradio_Demo.md) | [![Replicate](https://img.shields.io/static/v1?label=Demo&message=Replicate&color=blue)](https://replicate.com/jd7h/luciddreamer)
 
 ---
 
