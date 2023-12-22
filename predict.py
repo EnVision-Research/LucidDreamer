@@ -17,7 +17,7 @@ except ImportError:
     from train import *
 
 os.environ['HUGGINGFACE_HUB_CACHE'] = "models/"
-os.environ['HF_HUB_OFFLINE'] = 'false'
+os.environ['HF_HUB_OFFLINE'] = 'true'
 
 class Predictor(BasePredictor):
     def setup(self) -> None:
@@ -29,7 +29,7 @@ class Predictor(BasePredictor):
             print("Downloading checkpoint")
             try:
                 output = subprocess.check_output(["pget", "-x", ckpt_url, "/src/tmp"])
-                os.rename("/src/tmp/", "/src/modles/")
+                os.rename("/src/tmp/", "/src/models/")
             except subprocess.CalledProcessError as e:
                 raise e
 

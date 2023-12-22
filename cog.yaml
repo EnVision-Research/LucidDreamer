@@ -29,6 +29,9 @@ build:
     - "wandb==0.16.0"
     - "xformers==0.0.20"
 
+  run:
+    - curl -o /usr/local/bin/pget -L "https://github.com/replicate/pget/releases/download/v0.5.0/pget" 
+    - chmod +x /usr/local/bin/pget
 predict: "predict.py:Predictor"
 
 image: r8.im/jd7h/luciddreamer
