@@ -39,15 +39,14 @@ class Predictor(BasePredictor):
         self,
         prompt: str = Input(
             description="Your prompt",
-            default="A dog on a skateboard, hair waving in the wind, HDR, photorealistic, 8K",
         ),
         init_prompt: str = Input(
             description="Optional Point-E init prompt",
-            default="a dog on a skateboard",
+            default=None,
         ),
         neg_prompt: str = Input(
             description="Negative prompt",
-            default="unrealistic, blurry, low quality, out of focus, ugly, low contrast, dull, low-resolution, oversaturation.",
+            default=None,
         ),
         iterations: int = Input(
             description="Number of iterations",
@@ -60,11 +59,18 @@ class Predictor(BasePredictor):
             default=7.5,
         ),
         seed: int = Input(
-            description="Seed",
-            default=0,
+            description="Seed. Leave blank for a random seed.",
+            default=None,
         ),
     ) -> List[Path]:
         """Run a single prediction on the model"""
+        if seed is None:
+            seed = int.from_bytes(os.urandom(4), "big")
+        print(f"Using seed: {seed}")
+
+        if neg_prompt is None:
+            neg_prompt = ''
+
         train_path = os.path.join(os.path.dirname(__file__), 'train.py')
         # Use cat_armor as a template.
         template_path = os.path.join(os.path.dirname(__file__), 'configs/cat_armor.yaml')
@@ -90,12 +96,12 @@ class Predictor(BasePredictor):
         config['GuidanceParams']['guidance_scale'] = cfg
         config['ModelParams']['workspace'] = workspace
 
-        if len(init_prompt) > 1:
-            config['GenerateCamParams']['init_prompt'] = init_prompt
-            config['GenerateCamParams']['init_shape'] = 'pointe'
-        else:
+        if init_prompt is None:
             config['GenerateCamParams']['init_prompt'] = '.'
             config['GenerateCamParams']['init_shape'] = 'sphere'
+        else:
+            config['GenerateCamParams']['init_prompt'] = init_prompt
+            config['GenerateCamParams']['init_shape'] = 'pointe'
         config['OptimizationParams']['iterations'] = iterations
 
         with open(config_path, 'w') as yml:
