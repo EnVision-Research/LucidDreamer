@@ -4,9 +4,11 @@
 from cog import BasePredictor, Input, Path
 from typing import List
 
-import subprocess, sys
-import yaml
 import os
+import shutil
+import subprocess
+import sys
+import yaml
 
 try:
     from train import *
@@ -66,7 +68,12 @@ class Predictor(BasePredictor):
         train_path = os.path.join(os.path.dirname(__file__), 'train.py')
         # Use cat_armor as a template.
         template_path = os.path.join(os.path.dirname(__file__), 'configs/cat_armor.yaml')
-        os.makedirs(os.path.join(os.path.dirname(__file__), 'output'), exist_ok=True)
+
+        output_folder = Path(os.path.join(os.path.dirname(__file__), 'output'))
+        if output_folder.exists():
+            shutil.rmtree(output_folder)
+        os.makedirs(str(output_folder), exist_ok=False)
+
         config_path = os.path.join(os.path.dirname(__file__), 'output/predict.yaml')
 
         workspace = 'Replicate'
