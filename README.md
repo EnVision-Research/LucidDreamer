@@ -7,7 +7,7 @@ $\color{red}{\*}$: Equal contribution.
 
 [Paper PDF (Arxiv)](https://arxiv.org/abs/2311.11284) | [Project Page (Coming Soon)]() | [Gradio Demo](resources/Gradio_Demo.md)
 
-The paper is now accepted to CVPR 2024.
+The paper is now accepted to CVPR 2024 as poster (highlight, 11.9%).
 
 ---
 
