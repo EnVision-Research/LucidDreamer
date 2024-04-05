@@ -1,4 +1,4 @@
-# [CVPR 2024] LucidDreamer: Towards High-Fidelity Text-to-3D Generation via Interval Score Matching
+# [CVPR 2024 Hightlight] LucidDreamer: Towards High-Fidelity Text-to-3D Generation via Interval Score Matching
 
 [Yixun Liang](https://yixunliang.github.io/)$^{\color{red}{\*}}$ [Xin Yang](https://abnervictor.github.io/2023/06/12/Academic-Self-Intro.html)$^{\color{red}{\*}}$, [Jiantao Lin](https://ltt-o.github.io/), [Haodong Li](https://haodong-li.com/), [Xiaogang Xu](https://xiaogang00.github.io), [Yingcong Chen](https://www.yingcong.me)$^{\**}$
 
