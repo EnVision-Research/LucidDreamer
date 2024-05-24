@@ -61,13 +61,11 @@ We are currently building an online demo of LucidDreamer with Gradio, you can ch
 
 ## 📍 Citation 
 ```
-@misc{EnVision2023luciddreamer,
-      title={LucidDreamer: Towards High-Fidelity Text-to-3D Generation via Interval Score Matching}, 
-      author={Yixun Liang and Xin Yang and Jiantao Lin and Haodong Li and Xiaogang Xu and Yingcong Chen},
-      year={2023},
-      eprint={2311.11284},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@article{EnVision2023luciddreamer,
+  title={Luciddreamer: Towards high-fidelity text-to-3d generation via interval score matching},
+  author={Liang, Yixun and Yang, Xin and Lin, Jiantao and Li, Haodong and Xu, Xiaogang and Chen, Yingcong},
+  journal={arXiv preprint arXiv:2311.11284},
+  year={2023}
 }
 ```
 
