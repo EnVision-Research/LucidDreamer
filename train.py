@@ -171,7 +171,8 @@ def training(dataset, opt, pipe, gcams, guidance_opt, testing_iterations, saving
         if not os.path.exists(save_folder_proc):
             os.makedirs(save_folder_proc)  # makedirs
         process_view_points = scene.getCircleVideoCameras(batch_size=opt.pro_frames_num,render45=opt.pro_render_45).copy()    
-        save_process_iter = opt.iterations // len(process_view_points)
+        # if opt.iterations < len(process_view_points), we get a ZeroDivisionError
+        save_process_iter = max(opt.iterations // len(process_view_points), 1)
         pro_img_frames = []
 
     for iteration in range(first_iter, opt.iterations + 1):        
